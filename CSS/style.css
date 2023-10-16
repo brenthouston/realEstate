@@ -1,4 +1,6 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 
 /* Style Sheet Reset & Global */
 * {
@@ -13,7 +15,7 @@
   }
   body {
     font-size: 16px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "montserrat", sans-serif;
     background-color: #f4f7fb;
   }
   img {
@@ -24,7 +26,7 @@
     background: none;
     border: none;
     cursor: pointer;
-    font-family: "Montserrat", sans-serif;
+    font-family: "montserrat", sans-serif;
   }
   input,
   select,
@@ -38,8 +40,8 @@
   body {
     display: flex;
     flex-direction: column;
+  
     width: 100vw;
-    
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
@@ -71,8 +73,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
   }
   
+  #navBar{
+    position: fixed;
+    top:0;
+    z-index: 20;
+  }
   
   ul {
     width: 500px;
@@ -97,6 +105,10 @@
     margin: 0px 20px 0px 20px;
   }
 
+  i {
+    margin: 0px 10px 0px 10px;
+  }
+
   /*         HERO SECTION          */
 
 .btn {
@@ -104,7 +116,7 @@
     font-weight: 600;
     padding: 10px 30px;
     border-radius: 5px;
-    background-color: #1e5ea6;
+    background-color: var(--col1);
     color: #fff;
     cursor: pointer;
     border: none;
@@ -129,6 +141,7 @@
   }
   
   .hero {
+    top:91px;
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -138,6 +151,7 @@
     background-image: url("../images/IMG.png");
     background-repeat: no-repeat;
     filter: brightness(110%);
+    margin-bottom: 80px;
   }
   
   .hero-overlay {
@@ -166,10 +180,12 @@
     text-transform: uppercase;
   }
   
+/*       DEDICATED AND MEETING SECTION       */
+
   .dedicated {
     height: 637px;
     margin-top: 84px;
-    background-image: url("/assets/images/meeting.png");
+    background-image: url("../images/meeting.png");
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: bottom right;
@@ -190,11 +206,10 @@
     font-family: "Barlow Condensed", sans-serif;
     font-size: 60px;
     text-transform: uppercase;
-    color: #1e5ea6;
+    color: var(--col1);
   }
   .line {
     margin-bottom: 38px;
-  
     border-bottom: 5px solid black;
     width: 180px;
   }
@@ -218,7 +233,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: 130px;
-    background-color: #1e5ea6;
+    background-color: var(--col1);
     margin-bottom: 84px;
     color: #ffffff;
     font-family: "Barlow Condensed", sans-serif;
@@ -238,9 +253,10 @@
     font-size: 22px;
   }
   
-  .explore {
+.explore  {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-start ;
+   
   }
   
   .explore > h1 {
@@ -248,6 +264,6 @@
     font-family: "Barlow Condensed", sans-serif;
     font-size: 60px;
     text-transform: uppercase;
-    color: #1e5ea6;
+    color: var(--col1);
   }
   
