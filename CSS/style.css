@@ -77,9 +77,14 @@
   }
   
   #navBar{
+    padding-left:3% ;
+    padding-right:3% ;
+    height: 91px;
+    background-color: var(--col2);
     position: fixed;
     top:0;
     z-index: 20;
+
   }
   
   ul {
@@ -252,11 +257,14 @@
     font-family: "montserrat", sans-serif;
     font-size: 22px;
   }
+
+  /*         EXPLORE THE AREA SECTION     */
   
-.explore  {
-    display: flex;
-    justify-content: flex-start ;
-   
+.box {
+    
+    padding-left:3% ;
+    padding-right:3% ;
+
   }
   
   .explore > h1 {
@@ -267,3 +275,43 @@
     color: var(--col1);
   }
   
+  div.maps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .card1{
+    width:335px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.161);
+    border-radius: 5px;
+    border: 1px solid #e2e6ea;
+    margin-bottom: 185px;
+    background: #fff;
+   
+  }
+  
+  .map{
+    margin-bottom: 22.52px;
+  }
+
+  .card-title{
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+    color: var(--col1);
+    margin-bottom: 30px;
+    font-size: 27px;
+  }
+
+  .card-body{
+    padding: .2rem 1rem;
+   
+  }
+
+  div > p {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
