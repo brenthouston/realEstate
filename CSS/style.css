@@ -197,6 +197,7 @@
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: bottom right;
+  
   }
   .card {
     width: 45%;
@@ -256,11 +257,14 @@
   .stat > div > h1 {
     font-size: 65px;
     margin-right: 24px;
+    line-height: 38px;
+    opacity: 1;
   }
   .stat > div > p {
     font-family: "montserrat", sans-serif;
-    font-size: 22px;
+    font-size: 21.84px;
     line-height: 25px;
+    opacity: 1;
    
   }
 
@@ -507,6 +511,7 @@
     background-color: blue;
     background-position: 50% 100%;
     height:391px;
+    margin-bottom: 50px;
 }
 
    .hero-overlay{
@@ -534,6 +539,7 @@
     margin: 0;
     padding: 0;
     padding-top: 32px;
+    box-shadow: none;
    }
 
    .card > h1{
@@ -545,6 +551,7 @@
     width: 158px;
     height: 5;
     margin-left: 13.5px;
+    margin-bottom: 26px;
    }
    .card > p {
     line-height: 35px;
@@ -558,12 +565,43 @@
     line-height: 38px;
     padding-bottom: 8px 29px 11px 29px;
    }
-   .dedicated {
-    width:100%;
-    height: 245px;
-    background-position: bottom center;
-    border: 2 solid black;
-    margin-bottom: 500px;
+ .dedicated {
+    height:791px;
+    background-position: bottom center ;
+    background-size: 103%;
+    margin-bottom: 52px;
+    filter:drop-shadow(0px 0px 9px #00000038)
+ }
+  
+   .container{
+    padding:11px;
    }
 
+   section.container {
+    margin-bottom: 50px;
+   }
+
+   .stats{
+    height: 385px;
+    flex-direction: column;
+    
+   }
+   .stat > div > h1 {
+    font-size: 65px;
+   }
+   .fourtyfive{
+    margin-left:9%;
+   }
+   .nine{
+    margin-left: 39%;
+   }
+
+   .two_hundo{
+    margin-left:-3%
+   }
+
+   .fewer{
+    width:300px;
+   }
+   
   }
