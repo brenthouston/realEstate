@@ -373,8 +373,7 @@
   }
 
   .about > p,
-  .connect > p,
-  .city > p {
+  .connect > p {
     font-size: 18px;
     font-family: "montserrat", sans-serif;
     font-weight: lighter;
@@ -383,6 +382,25 @@
     letter-spacing: -0.18px;
 
   }
+  .city > div > p {
+    font-size: 18px;
+    font-family: "montserrat", sans-serif;
+    font-weight: lighter;
+    color: var(--col2);
+    line-height: 25px;
+    letter-spacing: -0.18px;
+  }
+
+  .city > .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .addNum{
+    margin-bottom: 33.87px;
+  }
+
+
   footer > .widgets{
     display:flex;
     justify-content: space-between;
