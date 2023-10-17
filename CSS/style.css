@@ -448,3 +448,33 @@
     color:var(--col2);
     text-decoration: underline;
   }
+
+
+  @media (max-width: 375px) {
+
+   .realEst{
+    height: 46.05px;
+    width:124.02px;
+   }
+   nav{
+    display: none;
+   }
+   header{
+    width:375px;
+    justify-content: space-between;
+  
+   }
+   header.navBar{
+    width: 100vw;
+    display: flex;
+   }
+   img.icon{
+    margin: 10px;
+   }
+   .icons{
+    display: flex;
+    flex-direction: row;
+    width:123px;
+    left:50px;
+   }
+  }
