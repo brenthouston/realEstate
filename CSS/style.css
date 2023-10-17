@@ -87,7 +87,7 @@
 
   }
   
-  ul {
+  nav {
     width: 500px;
     display: flex;
     justify-content: space-between;
@@ -98,8 +98,11 @@
     list-style-type: none;
   }
   
-  li {
+ a {
     font-weight: normal;
+    color:#000000;
+    text-decoration: none;
+
   }
   
   .icons {
@@ -199,7 +202,7 @@
     width: 45%;
     margin: 0 10px;
     padding: 20px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.161);
+    box-shadow: 0px 0px 9px #00000038;
     border-radius: 5px;
     border: 1px solid #e2e6ea;
     margin-bottom: 30px;
@@ -226,6 +229,7 @@
   
   .card > button {
     margin-bottom: 51px;
+    letter-spacing: -0.03px;
   }
   
   section.container {
@@ -256,6 +260,8 @@
   .stat > div > p {
     font-family: "montserrat", sans-serif;
     font-size: 22px;
+    line-height: 25px;
+   
   }
 
   /*         EXPLORE THE AREA SECTION     */
@@ -287,7 +293,7 @@
     width:335px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.161);
+    box-shadow: 0px 0px 9px #00000038;
     border-radius: 8px;
     border: 1px solid #e2e6ea;
     margin-bottom: 185px;
@@ -321,6 +327,9 @@
     display: flex;
     justify-content: center;
     margin-bottom: 80.13px;
+  }
+  .btn-explore .btn{
+    letter-spacing: -0.3px;/
   }
 
   /*         FOOTER WIDGETS         */
@@ -364,6 +373,8 @@
     font-weight: normal;
     text-transform: uppercase;
     margin-bottom: 10.08px;
+    letter-spacing: -0.28px;
+    opacity:1;
   }
 
   .line1 {
@@ -434,5 +445,6 @@
    
   }
   .copywrite > p > a{
-    color:var(--col2)
+    color:var(--col2);
+    text-decoration: underline;
   }
