@@ -122,6 +122,7 @@
     padding:10px 38px 10px 38px ;
     border-radius: 5px;
     background-color: var(--col1);
+    background: #1E5EA6 0% 0% no-repeat padding-box;
     color: #fff;
     cursor: pointer;
     border: none;
@@ -261,8 +262,8 @@
   
 .box {
     
-    padding-left:3% ;
-    padding-right:3% ;
+    padding-left:3%;
+    padding-right:3%;
 
   }
   
@@ -287,11 +288,11 @@
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.161);
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid #e2e6ea;
     margin-bottom: 185px;
-    background: #fff;
-   
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+    opacity:1;
   }
   
   .map{
@@ -302,16 +303,118 @@
     font-family: "Barlow Condensed", sans-serif;
     text-transform: uppercase;
     color: var(--col1);
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     font-size: 27px;
   }
 
   .card-body{
-    padding: .2rem 1rem;
+    padding: 28.3px 24px;
    
   }
 
   .card-body > p {
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
+  }
+
+  .btn-explore{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80.13px;
+  }
+
+  /*         FOOTER WIDGETS         */
+
+  
+  footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .about-connect{
+    display: flex;
+    flex-direction: row;
+}
+
+.about{
+    padding: 81.92px 133px 0 3%;
+    opacity: 1;
+}
+
+.connect{
+    padding: 81.92px 0 0 0;
+    opacity: 1;
+
+}
+
+
+.city{
+    padding: 81.92px 3% 0 0;
+    opacity: 1;
+}
+
+  .about > h2,
+  .connect > h2,
+  .city > h2{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 28px;
+    color: var(--col2);
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 10.08px;
+  }
+
+  .line1 {
+    margin-bottom: 25.31px;
+    border-bottom: 3px solid white;
+    width: 50px;
+  }
+
+  .about > p,
+  .connect > p,
+  .city > p {
+    font-size: 18px;
+    font-family: "montserrat", sans-serif;
+    font-weight: lighter;
+    color: var(--col2);
+    line-height: 35px;
+    letter-spacing: -0.18px;
+
+  }
+  footer > .widgets{
+    display:flex;
+    justify-content: space-between;
+    height: 391px;
+    background: #1E5EA6 0% 0% no-repeat padding-box;
+    padding-left:3%;
+    padding-right:3%;
+  }
+
+  footer > .copywrite{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:87px;
+    background: #195190 0% 0% no-repeat padding-box;
+    padding-left:3%;
+    padding-right:3%;
+
+  }
+
+  .mls > img{
+    margin-right: 49px;
+  }
+
+  .copywrite > p{
+    font-family: "montserrat", sans-serif;
+    color: var(--col2);
+    font-size: 13px;
+    letter-spacing: -0.18px;
+    
+   
+  }
+  .copywrite > p > a{
+    color:var(--col2)
   }
