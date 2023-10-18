@@ -150,6 +150,7 @@
   }
   
   .hero {
+    min-height: 580px;
     top:91px;
     position: relative;
     height: 100vh;
