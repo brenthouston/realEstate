@@ -157,7 +157,7 @@
     position: relative;
     background-size: cover;
     background-position: bottom center;
-    background-image: url("../images/IMG.png");
+    background-image: url("../images/IMG@2x.png");
     background-repeat: no-repeat;
     filter: brightness(110%);
     margin-bottom: 80px;
@@ -508,10 +508,12 @@
     display:block;
    }
 .hero{
-    background-color: blue;
+    background-color: var(--col3);
     background-position: 50% 100%;
     height:391px;
     margin-bottom: 50px;
+    background-size: 290%;
+    background-position: center center;
 }
 
    .hero-overlay{
