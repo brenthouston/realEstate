@@ -479,7 +479,9 @@
 
 
   @media (max-width: 375px) {
-
+   #navBar{
+    position:relative
+   }
    .realEst{
     height: 46.05px;
     width:124.02px;
