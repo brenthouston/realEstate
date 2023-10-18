@@ -157,7 +157,7 @@
     position: relative;
     background-size: cover;
     background-position: bottom center;
-    background-image: url("../images/IMG@2x.png");
+    background-image: url("images/IMG@2x.png");
     background-repeat: no-repeat;
     filter: brightness(110%);
     margin-bottom: 80px;
@@ -193,7 +193,7 @@
   .dedicated {
     height: 637px;
     margin-top: 84px;
-    background-image: url("../images/meeting.png");
+    background-image: url("images/meeting.png");
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: bottom right;
