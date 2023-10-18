@@ -19,10 +19,10 @@
     
 ## Installation
   Please enjoy the video demo.
-  [Demo Video](https://drive.google.com/file/d/1VUGShXFSK2ArzmXG7KtTX4V3ckSkW31i/view)
+ 
     
 ## Usage
-  A video walk=though.
+
     
     
 ## License
