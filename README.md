@@ -4,8 +4,8 @@
   This is a HTML/CSS Excercise. The Adobe XD design was created by Sharp Hue. 
 
 
-
-
+## Link to Deploy
+  [Real Estate](https://brenthouston.github.io/realEstate/)
 
 
 
