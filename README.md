@@ -10,31 +10,11 @@
 
 
 ## Table of contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
+
   * [Questions](#questions)
     
-## Installation
-  Please enjoy the video demo.
- 
-    
-## Usage
 
-    
-    
-## License
-* [License Link](https://opensource.org/license/mit/)
-     
-## Contributing
-  comments and suggestions.
-    
-    
-## Tests
-  Manual
-    
+
     
 ## Questions
    * [Email](mailto:brentjustinhouston@gmail.com)
