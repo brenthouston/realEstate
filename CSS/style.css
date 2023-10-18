@@ -333,7 +333,7 @@
     margin-bottom: 80.13px;
   }
   .btn-explore .btn{
-    letter-spacing: -0.3px;/
+    letter-spacing: -0.3px;
   }
 
   /*         FOOTER WIDGETS         */
@@ -603,5 +603,65 @@
    .fewer{
     width:300px;
    }
+   .box{
+    padding-left: 0;
+    padding-right: 0;
+   }
+   .explore > h1{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+   }
+   div.line{
+    margin-left: 26.5px;
+    width: 180px;
+   }
+   div.maps{
+    margin-top: 38.16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+    
+   }
+
+   .card1{
+    margin-bottom:28px ;
+   }
+
+   div.card-body{
+    padding: 5px 0 28px 24.9px
+   }
+   img.map{
+    margin-bottom: 0;
+   }
+   .btn-explore{
+    margin-bottom: 91.6px;
+    margin-top: 22px;
+   }
+
+   footer > .widgets{
+    display:none;
+   }
+
+   footer > .copywrite {
+    height: 200px;
+    background-color: var(--col4);
+    flex-direction: column;
+    justify-content: space-evenly;
+   }
+
+   .mls > img{
+    margin:0;
+    padding: 29px;
+   }
+  
+ .copywrite > p{
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 22px;
+
    
+ }
+
   }
