@@ -669,16 +669,17 @@ footer > .copywrite {
     justify-content: center;
     margin-bottom: 24px;
   }
-  div.line {
+  div.lineB {
     margin: 0;
     width: 180px;
     position: relative;
-    right: 70px;
+    right: 66px;
+    
   }
   .line-position{
-    display: flex;
-    justify-content: center;
-    
+ display: flex;
+ justify-content: center;
+   
   }
 
   div.maps {
