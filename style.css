@@ -84,9 +84,6 @@ article {
 /*         HEADER         */
 header {
   width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 0px 100px;
   height: 91px;
   position: fixed;
@@ -104,9 +101,6 @@ header {
 
 nav > ul {
   width: 500px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   font-family: "montserrat", sans-serif;
   font-size: 21px;
   line-height: 29px;
@@ -145,8 +139,6 @@ li > a {
 }
 
 div.icons {
-  display: flex;
-  justify-content: space-between;
   min-width: 188px;
   max-width: 188px;
 }
@@ -215,9 +207,6 @@ i {
 
 .hero-overlay {
   color: #f4f7fb;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
   position: absolute;
   padding-top: 71px;
@@ -382,8 +371,6 @@ div.maps {
 }
 
 .btn-explore {
-  display: flex;
-  justify-content: center;
   margin-bottom: 80.13px;
 }
 .btn-explore .btn {
@@ -562,11 +549,7 @@ div.maps {
     bottom: 2px;
   }
 
-  .splash{
  
-    /* margin-bottom: 50.87px; */
-  }
-
 .hero {
     min-height: 391px;
     background-color: var(--col3);
