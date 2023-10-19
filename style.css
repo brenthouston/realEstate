@@ -58,7 +58,6 @@ article {
 }
 
 /*         HEADER         */
-
 header {
   width: auto;
   display: flex;
@@ -137,7 +136,6 @@ i {
 }
 
 /*         HERO SECTION          */
-
 .btn {
   font-size: 16px;
   font-weight: 600;
@@ -221,7 +219,6 @@ i {
 }
 
 /*       DEDICATED AND MEETING SECTION       */
-
 .dedicated {
   height: 637px;
   margin-top: 84px;
@@ -282,6 +279,7 @@ section.container {
   margin-bottom: 124px;
 }
 
+/* STATS SECTION */
 .stats {
   display: flex;
   flex-direction: row;
@@ -309,23 +307,12 @@ section.container {
   font-family: "montserrat", sans-serif;
   font-size: 21.84px;
   line-height: 25px;
+  margin-top: 12px;
   opacity: 1;
 }
 
-.years {
-  margin-top: 12px;
-}
-
-.full {
-  margin-top: 12px;
-}
-
-.fewer {
-  margin-top: 12px;
-}
 
 /*         EXPLORE THE AREA SECTION     */
-
 .explore > h1 {
   margin-bottom: 23px;
   font-family: "Barlow Condensed", sans-serif;
@@ -383,9 +370,9 @@ div.maps {
 
 /*         FOOTER WIDGETS         */
 
-footer {
+.footer {
   width: auto;
-  display: flex;
+  display:flex;
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -393,29 +380,35 @@ footer {
   background: #1e5ea6 0% 0% no-repeat padding-box;
 }
 
-.about-connect {
+.footer .widgets{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer .about-connect{
   display: flex;
   flex-direction: row;
 }
 
-.about {
+.footer .about {
   padding: 81.92px 133px 0 3%;
   opacity: 1;
 }
 
-.connect {
+.footer .connect {
   padding: 81.92px 0 0 0;
   opacity: 1;
 }
 
-.city {
+.footer .city {
   padding: 81.92px 0 0 0;
   opacity: 1;
 }
 
-.about > h2,
-.connect > h2,
-.city > h2 {
+.footer .about > h2,
+.footer .connect > h2,
+.footer .city > h2 {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 28px;
   color: var(--col2);
@@ -426,15 +419,15 @@ footer {
   opacity: 1;
 }
 
-.line1 {
+.footer .line1 {
   margin-bottom: 25.31px;
   border-bottom: 3px solid #ffffff;
   width: 50px;
   margin-left: 1px;
 }
 
-.about > p,
-.connect > p {
+.footer .about > p,
+.footer .connect > p {
   font-size: 18px;
   font-family: "montserrat", sans-serif;
   font-weight: lighter;
@@ -443,10 +436,10 @@ footer {
   letter-spacing: -0.18px;
 }
 
-.connect > p {
+.footer .connect > p {
   min-width: 98px;
 }
-.city > div > p {
+.footer .city > div > p {
   font-size: 18px;
   font-family: "montserrat", sans-serif;
   font-weight: lighter;
@@ -464,7 +457,7 @@ footer {
   margin-bottom: 33.87px;
 }
 
-footer > .widgets {
+.footer {
   display: flex;
   justify-content: space-between;
   height: 391px;
@@ -472,7 +465,7 @@ footer > .widgets {
   padding: 0px 100px;
 }
 
-footer > .copywrite {
+.footer .copywrite {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -481,17 +474,17 @@ footer > .copywrite {
   padding: 0px 100px;
 }
 
-.mls > img {
+.footer .copywrite .mls > img {
   margin-right: 49px;
 }
 
-.copywrite > p {
+.footer .copywrite > p {
   font-family: "montserrat", sans-serif;
   color: var(--col2);
   font-size: 13px;
   letter-spacing: -0.18px;
 }
-.copywrite > p > a {
+.footer .copywrite > p > a {
   color: var(--col2);
   text-decoration: underline;
 }
@@ -538,6 +531,7 @@ footer > .copywrite {
     display: none;
   }
   header {
+    position: relative;
     width: auto;
     padding: 17px;
   }
@@ -567,8 +561,8 @@ footer > .copywrite {
   }
 
   .splash{
-    position: relative;
-    top:91px;
+ 
+    /* margin-bottom: 50.87px; */
   }
 
 .hero {
