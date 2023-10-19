@@ -20,9 +20,9 @@
     <title>Real Estate</title>
   </head>
   <body>
-    <header id="navBar" class="">
+    <header id="navBar">
       <div id="logo">
-        <img class="realEst"src="images/Logo.svg" alt="Real Estate Logo" />
+        <img class="realEst" src="images/Logo.svg" alt="Real Estate Logo" />
       </div>
 
       <nav>
@@ -31,7 +31,7 @@
         <a href="#">About</a>
         <a href="#">Agents</a>
       </nav>
-     
+
       <div class="icons">
         <img
           class="icon"
@@ -40,15 +40,16 @@
         />
         <img
           class="icon"
+          id="phone"
           style="transform: scaleX(-1)"
           src="images/icons8-phone-29.png"
           alt="phone icon"
         />
-        <img class="icon" src="images/heart2.png" alt="heart icon" />
-      </div> 
-      <button class="hamburger">
-      <div class="bar"></div>
-     </button>
+        <img class="icon" id="heart" src="images/heart.png" alt="heart icon" />
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
     </header>
     <section>
       <div class="hero">
@@ -56,8 +57,8 @@
           <p>northwest arkansas</p>
           <h1 id="title">Real Estate Experts</h1>
           <button class="btn">
-            <img src="images/Magnifying_glass_23.png" alt="" />
-             start searching
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
+            start searching
           </button>
         </div>
       </div>
@@ -75,7 +76,7 @@
           </p>
           <button class="btn">why choose us</button>
         </div>
-    <div class="meeting_mobile"></div>
+        <div class="meeting_mobile"></div>
       </div>
     </section>
     <article>
@@ -95,7 +96,7 @@
         <div class="stat">
           <div class="nine"><h1>9</h1></div>
           <div class="fewer">
-            <p>fewer days <br/>on the market</p>
+            <p>fewer days <br />on the market</p>
           </div>
         </div>
       </div>
@@ -107,13 +108,9 @@
       <div class="line"></div>
       <div class="maps">
         <div class="card1">
-          <header class="card-head">
-            <img
-              class="map"
-              src="images/Beaver.jpg"
-              alt="Map of Beaver Lake"
-            />
-          </header>
+          <div class="card-head">
+            <img class="map" src="images/Beaver.jpg" alt="Map of Beaver Lake" />
+          </div>
           <div class="card-body">
             <h2 class="card-title">Beaver Lake</h2>
             <p><strong>City:</strong> Rogers, AR</p>
@@ -121,13 +118,9 @@
           </div>
         </div>
         <div class="card1">
-          <header class="card-head">
-            <img
-              class="map"
-              src="images/Pinnacle.jpg"
-              alt="Map of Pinnacle"
-            />
-          </header>
+          <div class="card-head">
+            <img class="map" src="images/Pinnacle.jpg" alt="Map of Pinnacle" />
+          </div>
           <div class="card-body">
             <h2 class="card-title">Pinnacle</h2>
             <p><strong>City:</strong> Rogers, AR</p>
@@ -135,13 +128,13 @@
           </div>
         </div>
         <div class="card1">
-          <header class="card-head">
+          <div class="card-head">
             <img
               class="map"
               src="images/Har-Ber.jpg"
               alt="Map of Har-Ber Meadows"
             />
-          </header>
+          </div>
           <div class="card-body">
             <h2 class="card-title">Har-Ber Meadows</h2>
             <p><strong>City:</strong> Springdale, AR</p>
@@ -149,13 +142,13 @@
           </div>
         </div>
         <div class="card1">
-          <header class="card-head">
+          <div class="card-head">
             <img
               class="map"
               src="images/Bentonville.jpg"
               alt="Map of Downtown Bentonville"
             />
-          </header>
+          </div>
           <div class="card-body">
             <h2 class="card-title">Downtown Bentonville</h2>
             <p><strong>City:</strong> Bentonville, AR</p>
@@ -189,15 +182,31 @@
           <h2>City Name</h2>
           <div class="line1"></div>
           <div class="addNum">
-          <p><img src="images/pinPoint-white.png" alt="location pointer logo"> 123 Address St. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City, ST 12345</p>
-          <br> 
-          <p><img style="transform: scaleX(-1);" src="images/icons8-phone-white-21.png" alt="phone icon">&nbsp;(123) 456-7890</p>
+            <p>
+              <img
+                src="images/pinPoint-white.png"
+                alt="location pointer logo"
+              />
+              123 Address St. <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City, ST
+              12345
+            </p>
+            <br />
+            <p>
+              <img
+                style="transform: scaleX(-1)"
+                src="images/icons8-phone-white-21.png"
+                alt="phone icon"
+              />&nbsp;(123) 456-7890
+            </p>
           </div>
           <div class="social">
-            <img src="images/icons8-facebook-25 (1).png" alt="facebook logo">
-            <img src="images/icons8-instagram-25 (1).png" alt="instagram logo">
-            <img src="images/icons8-twitter-25.png" alt="twitter logo">
-            <img src="images/icons8-linkedin-25.png" alt="linkedin logo">
+            <img src="images/icons8-facebook-25 (1).png" alt="facebook logo" />
+            <img
+              src="images/icons8-instagram-25 (1).png"
+              alt="instagram logo"
+            />
+            <img src="images/icons8-twitter-25.png" alt="twitter logo" />
+            <img src="images/icons8-linkedin-25.png" alt="linkedin logo" />
           </div>
         </div>
       </div>
@@ -209,9 +218,10 @@
           />
           <img src="images/MLS.png" alt="MLS Logo" />
         </div>
-        
+
         <p>
-          &copy 2023 All Rights Reserved. <a href="#">Web.Cloud.Apps</a> by Sharp Hue.
+          &copy 2023 All Rights Reserved. <a href="#">Web.Cloud.Apps</a> by
+          Sharp Hue.
         </p>
       </div>
     </footer>
