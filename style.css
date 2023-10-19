@@ -73,7 +73,6 @@
     justify-content: space-between;
     padding:0px 100px;
     height: 91px;
-    background-color: var(--col2);
     position: fixed;
     top:0;
     left: 0;
@@ -132,13 +131,16 @@
     border: none;
     text-decoration: none;
     font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
     font-size: 30px;
-    font-weight: lighter;
     text-transform: uppercase;
     opacity: 1;
     font-weight: normal;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 8px;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
   }
   
   #title {
@@ -148,6 +150,11 @@
     letter-spacing: 0px;
     font-size: 58px;
     margin-bottom: 20px;
+  }
+  .hero-overlay > h1{
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
   }
   
   .hero {
@@ -189,6 +196,9 @@ opacity: 1;
     opacity: 1;
     font-weight: normal;
     text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
   }
   
 /*       DEDICATED AND MEETING SECTION       */
@@ -219,11 +229,14 @@ opacity: 1;
     font-size: 60px;
     text-transform: uppercase;
     color: var(--col1);
+    line-height: 29px;
   }
   .line {
     margin-bottom: 38px;
     border-bottom: 5px solid #4F4F4F;
     width: 180px;
+    margin-left:1px;
+    
   }
   
   .card > p {
@@ -240,6 +253,8 @@ opacity: 1;
     margin-bottom: 124px;
   }
   
+
+
   .stats {
     display: flex;
     flex-direction: row;
@@ -271,6 +286,17 @@ opacity: 1;
    
   }
 
+.years{
+  margin-top: 10px;
+}
+
+  .full{
+    margin-top: 11px;
+  }
+
+  .fewer{
+    margin-top: 10px;
+  }
   /*         EXPLORE THE AREA SECTION     */
   
 .box {
