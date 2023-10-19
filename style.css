@@ -256,6 +256,11 @@ i {
   border-bottom: 5px solid #4f4f4f;
   width: 180px;
 }
+.lineB {
+  margin: 23px 0 52px 1px;
+  border-bottom: 5px solid #4f4f4f;
+  width: 180px;
+}
 
 .card > p {
   line-height: 2rem;
@@ -621,6 +626,7 @@ footer > .copywrite {
     background-position: bottom center;
     background-size: 103%;
     margin-bottom: 52px;
+    border-radius:8px; 
     filter: drop-shadow(0px 0px 9px #00000038);
   }
 
@@ -661,7 +667,7 @@ footer > .copywrite {
     justify-content: center;
     margin-bottom: 24px;
   }
-  div.line {
+  div.lineB {
     margin: 0;
     width: 180px;
     position: relative;
