@@ -299,9 +299,7 @@ i {
   letter-spacing: -0.03px;
 }
 
-section.container {
-  margin-bottom: 124px;
-}
+
 
 /* STATS SECTION */
 .stats {
@@ -402,7 +400,6 @@ div.maps {
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   background: #1e5ea6 0% 0% no-repeat padding-box;
-  height: 391px;
  
 }
 .footer .widgets{
@@ -472,6 +469,7 @@ div.maps {
   height: 87px ;
   background: #195190 0% 0% no-repeat padding-box;
   padding: 0px 100px;
+
 }
 
 .footer .copywrite .mls > img {
