@@ -374,6 +374,9 @@ opacity: 1;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
+    background: #1E5EA6 0% 0% no-repeat padding-box;
+
+   
 
   }
 
@@ -457,8 +460,8 @@ opacity: 1;
     justify-content: space-between;
     height: 391px;
     background: #1E5EA6 0% 0% no-repeat padding-box;
-    padding-left:3%;
-    padding-right:3%;
+    padding:0px 100px; 
+   
   }
 
   footer > .copywrite{
@@ -467,8 +470,7 @@ opacity: 1;
     justify-content: space-between;
     height:87px;
     background: #195190 0% 0% no-repeat padding-box;
-    padding-left:3%;
-    padding-right:3%;
+    padding:0px 100px; 
 
   }
 
