@@ -46,7 +46,7 @@
   }
 
   .container {
-    padding: 20px;
+    padding: 20px 0px;
     max-width: 1400px;
     margin: 0 auto;
     background-color: #f4f7fb;
@@ -83,6 +83,10 @@
 
   }
   
+  .realEst{
+    min-height: 46.05px;
+    min-width:124.02px;
+  }
  
   
   nav > ul {
@@ -287,24 +291,18 @@ opacity: 1;
   }
 
 .years{
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
   .full{
-    margin-top: 11px;
+    margin-top: 12px;
   }
 
   .fewer{
-    margin-top: 10px;
+    margin-top: 12px;
   }
-  /*         EXPLORE THE AREA SECTION     */
   
-.box {
-    
-    padding-left:3%;
-    padding-right:3%;
-
-  }
+  /*         EXPLORE THE AREA SECTION     */
   
   .explore > h1 {
     margin-bottom: 23px;
