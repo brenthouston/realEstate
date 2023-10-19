@@ -236,7 +236,7 @@ opacity: 1;
     line-height: 29px;
   }
   .line {
-    margin-bottom: 38px;
+    margin-bottom: 52px;
     border-bottom: 5px solid #4F4F4F;
     width: 180px;
     margin-left:1px;
@@ -301,7 +301,7 @@ opacity: 1;
   .fewer{
     margin-top: 12px;
   }
-  
+
   /*         EXPLORE THE AREA SECTION     */
   
   .explore > h1 {
@@ -317,6 +317,7 @@ opacity: 1;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 
   }
 
@@ -370,8 +371,12 @@ opacity: 1;
     width: auto;
     display: flex;
     flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
 
   }
+
   
   .about-connect{
     display: flex;
@@ -388,7 +393,6 @@ opacity: 1;
     opacity: 1;
 
 }
-
 
 .city{
     padding: 81.92px 3% 0 0;
@@ -410,8 +414,9 @@ opacity: 1;
 
   .line1 {
     margin-bottom: 25.31px;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #ffffff;
     width: 50px;
+    margin-left: 1px;
   }
 
   .about > p,
@@ -423,6 +428,10 @@ opacity: 1;
     line-height: 35px;
     letter-spacing: -0.18px;
 
+  }
+
+  .connect >p{
+    min-width:98px;
   }
   .city > div > p {
     font-size: 18px;
