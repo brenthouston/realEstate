@@ -263,8 +263,14 @@ i {
 }
 
 .card > p {
-  line-height: 2rem;
+  line-height: 35px;
   padding-bottom: 38px;
+  font-size: 22px;
+  font-weight: normal;
+  max-width: 541px;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
 }
 
 .card > button {
@@ -609,11 +615,7 @@ footer > .copywrite {
     margin-left: 13.5px;
     margin-bottom: 26px;
   }
-  .card > p {
-    line-height: 35px;
-    font-size: 18px;
-    padding: 0 0 26px 13.5px;
-  }
+
   .card > button {
     margin: 0 0 47.73px 13.5px;
     font-size: 30px;
@@ -667,7 +669,7 @@ footer > .copywrite {
     justify-content: center;
     margin-bottom: 24px;
   }
-  div.lineB {
+  div.line {
     margin: 0;
     width: 180px;
     position: relative;
