@@ -109,12 +109,41 @@
     text-decoration: none;
 
   }
+
+  .hamburger{
+    position: relative;
+    display: none;
+    width: 30px;
+    cursor: pointer;
+    appearance: none;
+    background:none;
+    outline:none;
+    border: none;
+    
+
+  }
+
+
+.hamburger .bar, .hamburger::after, .hamburger::before{
+    
+    content: "";
+    display:none;
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    transition: 0.4s;
+   
+}
   
-  .icons {
+  div.icons {
+    display: flex;
+    justify-content: space-between;
+    min-width:188px;
+    max-width: 188px;
   }
   
   .icon {
-    margin: 0px 20px 0px 20px;
+   
   }
 
   i {
@@ -219,6 +248,7 @@ opacity: 1;
   }
   .card {
     min-height:445px;
+    min-width:449px;
     width: 45%;
     margin: 0 10px;
     padding: 20px;
@@ -324,6 +354,7 @@ opacity: 1;
 
   .card1{
     width:auto;
+
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 9px #00000038;
@@ -334,9 +365,7 @@ opacity: 1;
     opacity:1;
   }
   
-  .map{
-    margin-bottom: 22.52px;
-  }
+
 
   .card-title{
     font-family: "Barlow Condensed", sans-serif;
@@ -399,7 +428,7 @@ opacity: 1;
 }
 
 .city{
-    padding: 81.92px 3% 0 0;
+    padding: 81.92px 0 0 0;
     opacity: 1;
 }
 
@@ -492,28 +521,36 @@ opacity: 1;
     text-decoration: underline;
   }
 
-  .hamburger{
-    position: relative;
-    display: block;
-    width: 26px;
-    cursor: pointer;
-    appearance: none;
-    background:none;
-    outline:none;
-    border: none;
-    
 
+
+@media (max-width: 1150px){
+  nav{
+    display: none;
   }
-.hamburger .bar, .hamburger::after, .hamburger::before{
+  button .hamburger{
+    display: flex ;
+    flex-direction: column;
+
     
-    content: "";
-    display:none;
-    width: 100%;
-    height: 2px;
-    background-color: #000000;
-    margin:6px 0px;
-    transition: 0.4s;
-   
+  }
+
+
+  
+  .hamburger .bar, .hamburger::after, .hamburger::before{
+    display:flex;
+    position: relative;
+    height: 3px;
+   top: 1px;
+   margin:4px 0; 
+   letter-spacing: -0.03px;
+  }
+
+  div.icons{
+    display: flex;
+    height: 35px;
+    width: 50%;
+  }
+
 }
 
 
@@ -560,7 +597,8 @@ opacity: 1;
    
    }
    .hamburger .bar, .hamburger::after, .hamburger::before{
-    display:block;
+   display: flex;
+   z-index: inherit;
    }
 .hero{
   min-height:391px;
