@@ -449,6 +449,14 @@ div.maps {
   letter-spacing: -0.18px;
 }
 
+.footer .city .addNum{
+margin-bottom:33.86px ;
+}
+
+.footer .city .social{
+  margin-left: -12px;
+}
+
 .footer .connect > p {
   min-width: 98px;
 }
@@ -567,6 +575,7 @@ header .icons{
 
  
 .hero {
+  width: auto;
     min-height: 391px;
     background-color: var(--col3);
     max-height: 391px;
@@ -595,11 +604,7 @@ header .icons{
     height: 20px;
     width: 20px;
   }
-  button.btn {
-    font-size: 22px;
-    padding: 8px 8px 8px 8px;
-    margin: 0 0px 0 0;
-  }
+
   .card {
     min-width: auto;
     width: auto;
