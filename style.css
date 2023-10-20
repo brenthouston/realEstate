@@ -486,6 +486,11 @@ div.maps {
 
 @media (max-width: 1150px) {
 
+  header .icons.flex.between{
+    justify-content:flex-end;
+    gap: 23px;
+
+  }
   nav {
     display: none;
   }
