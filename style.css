@@ -748,4 +748,9 @@ div.maps {
 
 }
 
+@media (max-width: 400px){
+  .dedicated{
+    height: 745.19px;
 
+  }
+}
