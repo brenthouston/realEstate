@@ -177,6 +177,7 @@ input, select, textarea { font-size: 16px; font-family: "Montserrat", sans-serif
 	.container .dedicated { padding: 0px; }
 	.container .explore { padding: 0px; }
 	.container .explore .line-position { padding: 0 27px; }
+	.container .dedicated .card {min-width:auto;}
 
 	/*      EXPLORE THE AREA SECTION       */
 	.container .explore > h1 { display: flex; justify-content: center; font-size: 48px; line-height: 29px; margin-bottom: 36px; }
