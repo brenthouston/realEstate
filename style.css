@@ -575,12 +575,10 @@ header .icons{
 
  
 .hero {
-  width: auto;
     min-height: 391px;
     background-color: var(--col3);
-    max-height: 391px;
     margin-bottom: 50px;
-    background-size: 290%;
+    background-size: 220%;
     background-position: center center;
     top: 0;
     margin: 0;
