@@ -138,9 +138,8 @@ li > a {
   opacity: 1;
 }
 
-div.icons {
-  min-width: 188px;
-  max-width: 188px;
+header .icons {
+ gap: 52px;
 }
 
 .icon {
@@ -505,17 +504,14 @@ div.maps {
   }
 
 
-  div.icons {
-    display: flex;
-    height: 35px;
-    min-width: 220px;
-    max-width: 230px;
-  }
+
 
   .dedicated{
     padding:0 11px;  
   }
-
+header .icons{
+  align-items: center;
+}
 
 }
 
@@ -742,6 +738,12 @@ div.maps {
 }
 
 @media (max-width: 400px){
+
+  header .icons.flex.between{
+    justify-content:flex-end;
+    gap: 12px;
+
+  }
 
   .container{
     padding: 0 11px;
