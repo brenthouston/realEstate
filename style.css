@@ -324,20 +324,27 @@ i {
 
 
 /*         EXPLORE THE AREA SECTION     */
+
+.container .explore{
+  padding: 0 40px;
+}
+
 .explore > h1 {
   margin-bottom: 23px;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 60px;
   text-transform: uppercase;
   color: var(--col1);
+  transition: 500ms;
 }
 
 div.maps {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 50px;
+  gap: 1em;
 }
 
 .card1 {
@@ -348,7 +355,6 @@ div.maps {
   box-shadow: 0px 0px 9px #00000038;
   border-radius: 8px;
   border: 1px solid #e2e6ea;
-  margin-bottom: 57px;
   background: #f9f9f9 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -359,6 +365,10 @@ div.maps {
   color: var(--col1);
   margin-bottom: 28px;
   font-size: 27px;
+}
+
+.container .maps{
+  margin-bottom: 57px;
 }
 
 .card-body {
@@ -502,8 +512,10 @@ div.maps {
   }
 
   .dedicated{
-    padding:20px;  
+    padding:0 11px;  
   }
+
+
 }
 
 
@@ -626,21 +638,13 @@ div.maps {
   .dedicated {
     min-height: 910px;
     background-position: bottom center;
-    background-size: 100%;
+    background-size: 96%;
     border-radius:8px 8px 8px 8px; 
     filter: drop-shadow(0px 0px 9px #00000038);
     margin-bottom: 50px;
     transition: 500ms ease-in-out;
     
     
-  }
-
-  .container {
-    padding: 11px;
-  }
-
-  section.container {
-    margin-bottom: 50px;
   }
 
   .stats {
@@ -666,27 +670,12 @@ div.maps {
     width: auto;
   }
 
-  .explore > h1 {
-    font-size: 48px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 24px;
-  }
-  div.lineB {
-    margin: 0;
-    width: 180px;
-    position: relative;
-    right: 66px;
-    
-  }
-  .line-position{
- display: flex;
- justify-content: center;
-   
-  }
+
+
+
 
   div.maps {
- 
+    margin-bottom: 28px;
     margin: 0;
     margin-top: 38.16px;
     justify-content:center;
@@ -694,7 +683,6 @@ div.maps {
   }
 
   .card1 {
-    margin-bottom: 28px;
     max-width: 335px;
   }
 
@@ -705,7 +693,7 @@ div.maps {
     margin-bottom: 0;
   }
   .btn-explore {
-    margin-bottom: 91.6px;
+    margin-bottom: 80.53px;
     margin-top: 22px;
   }
 
@@ -760,5 +748,22 @@ div.maps {
 
   .container .dedicated{
    padding:0px;
+  }
+
+  .container .explore{
+    padding: 0px;
+  }
+
+  .container .explore .line-position{
+    padding: 0 27px;
+  }
+  .explore > h1{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    line-height: 29px;
+    margin-bottom:36px ;
+    
+
   }
 }
