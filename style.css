@@ -36,7 +36,7 @@ textarea {
 .pointer {
   cursor: pointer;
 }
-article {
+.font-smoothing {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
@@ -378,6 +378,7 @@ div.maps {
 .card-body > p {
   font-size: 20px;
   margin-bottom: 14px;
+  line-height: 29px;
 }
 
 .btn-explore {
@@ -741,9 +742,16 @@ div.maps {
 }
 
 @media (max-width: 400px){
+
+  .container{
+    padding: 0 11px;
+  }
+
   .dedicated{
-    min-height: 745.19px;
+    min-height: 710.19px;
     transition: 500ms ease-in-out;
+    margin-top: 50.87px;
+    background-size: 100%;
   }
 
   .container .dedicated{
@@ -763,7 +771,34 @@ div.maps {
     font-size: 48px;
     line-height: 29px;
     margin-bottom:36px ;
-    
+    }
 
-  }
+    .container .maps{
+      margin-bottom:22.69px ;
+    }
+
+    div.card-body{
+      margin: 0;
+    }
+
+     .container .btn-explore .btn{
+      font-size: 30px;
+      letter-spacing:-0.03;
+      line-height: 38px;
+      padding: 7.87px 29.04px 11.13px 29.96px ;
+    }
+    .container .maps .card-body {
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .container .card-title{
+      font-size:31px;
+      line-height: 33px;
+      display: flex;
+      justify-content: center;
+    }
+    .container .card-body > p{
+      font-size:20px ;
+    }
 }
