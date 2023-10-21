@@ -127,7 +127,7 @@ input, select, textarea { font-size: 16px; font-family: "Montserrat", sans-serif
 	.splash .hero-overlay { padding-top: 7rem; background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0)); }
 	.splash .hero-overlay > p { font-size: 24px; }
 	.splash .hero #title { font-size: 34px; }
-	.splash .hero button > img { height: 20px; width: 20px; }
+	.splash .hero button > { height: 20px; width: 20px; }
 
 	/*      DEDICATED AND MEETING SECTION       */
 	.dedicated .card { width: auto; margin: 0; padding: 0; padding-top: 32px; box-shadow: none; }
@@ -170,14 +170,17 @@ input, select, textarea { font-size: 16px; font-family: "Montserrat", sans-serif
 	/*		HEADER 		*/
 	 header .icons.flex.between { justify-content: flex-end; gap: 24px; }
 
+	 /* 	HERO SECTION 	*/
+	 .splash .hero button.btn { font-size: 22px; line-height: 16px; padding: 10px 14.31px 9.82px 15.11px  }
+
 	 /*     DEDICATED AND MEETING SECTION       */
 	.dedicated { min-height: 710.19px; transition: 500ms ease-in-out; margin-top: 50.87px; background-size: 100%; }
 	.container .dedicated { padding: 0px; }
+	.container .dedicated .card {min-width:auto;}
+	
+	/*      EXPLORE THE AREA SECTION       */
 	.container .explore { padding: 0px; }
 	.container .explore .line-position { padding: 0 27px; }
-	.container .dedicated .card {min-width:auto;}
-
-	/*      EXPLORE THE AREA SECTION       */
 	.container .explore > h1 { display: flex; justify-content: center; font-size: 48px; line-height: 29px; margin-bottom: 36px; }
 	.container .maps { margin-bottom: 22.69px; }
 	.container.card-body { padding: 0 24.9px 28px; }
