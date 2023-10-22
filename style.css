@@ -115,7 +115,6 @@ input, select, textarea { font-size: 16px; font-family: "Montserrat", sans-serif
 }
 
 @media (max-width:768px) { 
-	
 
 	/*		 HEADER 		*/
 	.header{ padding: 0 17px !important;}
@@ -148,6 +147,7 @@ input, select, textarea { font-size: 16px; font-family: "Montserrat", sans-serif
 	/*      EXPLORE THE AREA SECTION       */
 	.container .maps { margin-bottom: 28px; margin: 0; margin-top: 38.16px; justify-content: center; }
 	.container .maps .card1 { max-width: 335px; }
+	.container .explore > h1 { font-size: 48px; margin-bottom: 40px; padding: 0 ; }
 	.container .maps .card-body { padding: 5px 0 28px 24.9px; }
 	.container .maps img.map { margin-bottom: 0; }
 	.container .btn-explore { margin-bottom: 80.53px; margin-top: 22px; }
