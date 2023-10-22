@@ -57,7 +57,7 @@ input, select, textarea { font-size: 16px; font-family: "Montserrat", sans-serif
 
 /*       	DEDICATED AND MEETING SECTION     	  */
 .dedicated { min-height: 637px; margin-top: 84px; background-image: url("images/meeting.jpg"); background-repeat: no-repeat; filter: drop-shadow(0px 0px 9px #00000038); background-size: 60%; background-position: bottom right; margin-bottom: 124px; }
-.dedicated .card { min-height: 445px; width: 45%; margin: 0 10px; padding: 20px; border-radius: 5px; border: 1px solid #e2e6ea; margin-bottom: 30px; background: #fff; }
+.dedicated .card { min-height: 445px; min-width: 597px; width: 45%; margin: 0 10px; padding: 20px; border-radius: 5px; border: 1px solid #e2e6ea; margin-bottom: 30px; background: #fff; }
 .dedicated .card > h1 { padding: 33px 0 23px 0px; font-family: "Barlow Condensed", sans-serif; font-size: 60px; text-transform: uppercase; color: var(--col1); line-height: 29px; }
 .dedicated .line { margin: 23px 0 52px 1px; border-bottom: 5px solid #4f4f4f; width: 180px; }
 .dedicated .card > p { line-height: 35px; padding-bottom: 38px; font-size: 22px; font-weight: normal; max-width: 541px; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
@@ -130,7 +130,7 @@ input, select, textarea { font-size: 16px; font-family: "Montserrat", sans-serif
 	.splash .hero button > { height: 20px; width: 20px; }
 
 	/*      DEDICATED AND MEETING SECTION       */
-	.dedicated .card { width: auto; margin: 0; padding: 0; padding-top: 32px; box-shadow: none; }
+	.dedicated .card { min-width: 463px; width: auto; margin: 0; padding: 0; padding-top: 32px; box-shadow: none; }
 	.dedicated .card > h1 { font-size: 48px; margin-bottom: 40px; padding: 0 0 0 13.5px; }
 	.dedicated .card > p { font-size: 18px; padding-left: 13.5px; padding-right: 15px; line-height: 35px; }
 	.dedicated .line { width: 158px; height: 5; margin-left: 13.5px; margin-bottom: 26px; }
@@ -162,7 +162,9 @@ input, select, textarea { font-size: 16px; font-family: "Montserrat", sans-serif
 	.footer .copywrite > p { min-width: 250px; line-height: 22px; text-align: center; }
 	}
 
-@media (max-width:500px) {
+
+
+@media (max-width:450px) {
 
 	/* 		GLOBAL MOBILE		 */
 	.container { padding: 0 11px; }
