@@ -162,7 +162,7 @@ input, select, textarea { font-size: 16px; font-family: "Montserrat", sans-serif
 	.footer .copywrite > p { min-width: 250px; line-height: 22px; text-align: center; }
 	}
 
-@media (max-width:400px) {
+@media (max-width:500px) {
 
 	/* 		GLOBAL MOBILE		 */
 	.container { padding: 0 11px; }
