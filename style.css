@@ -170,6 +170,7 @@ input, select, textarea { font-size: 16px; font-family: "Montserrat", sans-serif
 	.container { padding: 0 11px; }
 
 	/*		HEADER 		*/
+	.header{ position: relative;}
 	 header .icons.flex.between { justify-content: flex-end; gap: 24px; }
 
 	 /* 	HERO SECTION 	*/
