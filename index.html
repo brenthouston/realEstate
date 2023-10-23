@@ -15,19 +15,15 @@
       src="https://kit.fontawesome.com/1328856ca7.js"
       crossorigin="anonymous"
     ></script>
-
     <title>Real Estate</title>
   </head>
-
   <body>
-    <!--      HEADER      -->
-    <header class="header flex center between">
-      <div id="logo">
-        <img class="realEst" src="images/Logo.svg" alt="Real Estate Logo" />
-      </div>
+    <!-- Header and Navigation -->
+    <header class="header flex center between bg-fff">
+      <img src="images/Logo.svg" alt="real estate logo" />
 
-      <nav>
-        <ul class="flex row between">
+      <nav class="flex ">
+        <ul class="flex row montserrat-semi-bold fs-21 fw-600 f-smooth ">
           <li><a href="#">Search</a></li>
           <li><a href="#">Relocate</a></li>
           <li><a href="#">About</a></li>
@@ -35,102 +31,131 @@
         </ul>
       </nav>
 
-      <div class="icons flex between">
-        <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #1e5ea6;"></i>
-        <i class="fa-solid fa-phone fa-xl" style="color: #1e5ea6; transform: scaleX(-1);"></i>
-        <i class="fa-solid fa-heart fa-xl" style="color: #1e5ea5;"></i>
-        <button class="hamburger">
+      <div class="icons flex center gap-20">
+        <i
+          class="fa-solid fa-magnifying-glass fa-xl"
+          style="color: #1e5ea6"
+        ></i>
+        <i
+          class="fa-solid fa-phone fa-xl"
+          style="color: #1e5ea6; transform: scaleX(-1)"
+        ></i>
+        <i class="fa-solid fa-heart fa-xl" style="color: #1e5ea5"></i>
+        <button class="hamburger col-000 flex column">
           <div class="bar"></div>
         </button>
       </div>
     </header>
 
     <!--      HERO SECTION       -->
-    <section class="splash">
-      <div class="hero">
-        <div class="hero-overlay flex column center">
-          <p>northwest arkansas</p>
-          <h1 id="title">Real Estate Experts</h1>
-          <button class="btn">
-            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
+    <section class="hero">
+      <div class="gradient">
+        <div class="title | text-center | f-smooth">
+          <h2
+            class="text-center | text-shadow | col-fff | barlow-cond-med fs-24 fw-300"
+          >
+            northwest arkansas
+          </h2>
+          <h1 class="text-center | text-shadow | col-fff | fs-34 fw-600">
+            Real Estate Experts
+          </h1>
+          <button class="btn bg-b barlow-cond-med fs-22">
+            <i class="fa-solid fa-magnifying-glass " style="color: #ffffff"></i>
             start searching
           </button>
         </div>
       </div>
-
     </section>
+
     <!--       DEDICATED AND MEETING SECTION      -->
-    <section class="container">
-      <div class="dedicated">
+    <section class="box-dm container f-smooth">
+      <div class="dedicated flex column center">
         <div class="card">
-          <h1>dedicated to you</h1>
+          <h1 class="barlow-cond-med fw-600 fs-48 col-b up">
+            dedicated to you
+          </h1>
+          <hr/>
           <div class="line"></div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
             reiciendis esse, nulla temporibus corporis porro amet impedit,
             quaerat, aperiam cum est quasi voluptatibus.
           </p>
-          <button class="btn">why choose us</button>
+          <button class="btn bg-b barlow-cond-med fs-30">why choose us</button>
         </div>
-
+        <img class= "relative" src="images/meeting.jpg" alt="group meeting" />
       </div>
     </section>
 
     <!--      STATS SECTION       -->
-    <article>
-      <div class="stats font-smoothing">
-        <div class="stat">
-          <div class="fourtyfive"><h1>45+</h1></div>
-          <div class="years">
+    <section>
+      <div class="stats bg-b col-fff flex column center">
+        <div class="years flex row center">
+          <div class="numbers barlow-cond-med flex end">
+            <h1 class="fourty-five fs-65">45+</h1>
+          </div>
+          <div
+            class="text montserrat-semi-bold f-smooth fw-400 fs-22 flex column"
+          >
             <p>years of <br />experience</p>
           </div>
         </div>
-        <div class="stat">
-          <div class="two_hundo"><h1>200+</h1></div>
-          <div class="full">
+
+        <div class="full-time flex row center">
+          <div class="two-hundred barlow-cond-med relative">
+            <h1 class="fs-65">200+</h1>
+          </div>
+          <div
+            class="text montserrat-semi-bold f-smooth fw-400 fs-22 flex column"
+          >
             <p>full-time <br />agents</p>
           </div>
         </div>
-        <div class="stat">
-          <div class="nine"><h1>9</h1></div>
-          <div class="fewer">
+
+        <div class="fewer-days flex row center">
+          <div class="numbers barlow-cond-med">
+            <h1 class="nine fs-65">9</h1>
+          </div>
+          <div
+            class="text montserrat-semi-bold f-smooth fw-400 fs-22 flex column"
+          >
             <p>fewer days <br />on market</p>
           </div>
         </div>
       </div>
-    </article>
+    </section>
 
     <!--       EXPLORE THE AREA SECTION       -->
-    <section class="container ">
+    <section class="explore-area container">
       <div class="explore">
-        <h1>Explore the Area</h1>
-        <div class="line-position">
-          <div class="lineB"></div>
+        <h1 class="barlow-cond-med fw-600 fs-48 col-b up">Explore the Area</h1>
+        <hr />
       </div>
-      </div>
-      <div class="maps">
-        <div class="card1">
-          <div class="card-head">
+      <div class="maps flex center wrap gap-20">
+        <div class="card">
+          <div class="card-head flex center">
             <img class="map" src="images/Beaver.jpg" alt="Map of Beaver Lake" />
           </div>
           <div class="card-body">
-            <h2 class="card-title">Beaver Lake</h2>
-            <p><strong>City:</strong> Rogers, AR</p>
-            <p><strong>Avg. Price:</strong> $420k</p>
+            <h2 class="card-title barlow-cond-med up col-b fs-31">
+              Beaver Lake
+            </h2>
+            <p class="f-smooth"><strong>City:</strong> Rogers, AR</p>
+            <p class="f-smooth"><strong>Avg. Price:</strong> $420k</p>
           </div>
         </div>
-        <div class="card1">
-          <div class="card-head">
+        <div class="card">
+          <div class="card-head flex center">
             <img class="map" src="images/Pinnacle.jpg" alt="Map of Pinnacle" />
           </div>
           <div class="card-body">
-            <h2 class="card-title">Pinnacle</h2>
-            <p><strong>City:</strong> Rogers, AR</p>
-            <p><strong>Avg. Price:</strong> $627k</p>
+            <h2 class="card-title barlow-cond-med up col-b fs-31">Pinnacle</h2>
+            <p class="f-smooth"><strong>City:</strong> Rogers, AR</p>
+            <p class="f-smooth"><strong>Avg. Price:</strong> $627k</p>
           </div>
         </div>
-        <div class="card1">
-          <div class="card-head">
+        <div class="card">
+          <div class="card-head flex center">
             <img
               class="map"
               src="images/Har-Ber.jpg"
@@ -138,13 +163,15 @@
             />
           </div>
           <div class="card-body">
-            <h2 class="card-title">Har-Ber Meadows</h2>
-            <p><strong>City:</strong> Springdale, AR</p>
-            <p><strong>Avg. Price:</strong> $350k</p>
+            <h2 class="card-title barlow-cond-med up col-b fs-31">
+              Har-Ber Meadows
+            </h2>
+            <p class="f-smooth"><strong>City:</strong> Springdale, AR</p>
+            <p class="f-smooth"><strong>Avg. Price:</strong> $350k</p>
           </div>
         </div>
-        <div class="card1">
-          <div class="card-head">
+        <div class="card">
+          <div class="card-head flex center">
             <img
               class="map"
               src="images/Bentonville.jpg"
@@ -152,79 +179,74 @@
             />
           </div>
           <div class="card-body">
-            <h2 class="card-title">Downtown Bentonville</h2>
-            <p><strong>City:</strong> Bentonville, AR</p>
-            <p><strong>Avg. Price:</strong> $680k</p>
+            <h2 class="card-title barlow-cond-med up col-b fs-31">
+              Downtown Bentonville
+            </h2>
+            <p class="f-smooth"><strong>City:</strong> Bentonville, AR</p>
+            <p class="f-smooth"><strong>Avg. Price:</strong> $680k</p>
           </div>
         </div>
       </div>
-      <div class="btn-explore flex center">
-        <button class="btn">explore more</button>
+      <div class="flex center">
+        <button class="btn bg-b fs-30 barlow-cond-med f-smooth">
+          explore more
+        </button>
       </div>
+
+      <!-- FOOTER SECTION -->
     </section>
-
-    <!--      FOOTER WIDGETS       -->
-    <footer>
-      <div class="footer flex between">
-        <div class="widgets flex row between">
-          <div class="about-connect flex row">
-            <div class="about">
-              <h2>about</h2>
-              <div class="line1"></div>
-              <p>Company</p>
-              <p>Careers</p>
-              <p>Blog</p>
-            </div>
-            <div class="connect">
-              <h2>Connect</h2>
-              <div class="line1"></div>
-              <p class="contact">Contact Us</p>
-              <p>Subscribe</p>
-            </div>
+    <footer class="footer bg-b">
+      <div class="widgets flex row between">
+        <div class="about-connect flex row">
+          <div class="about f-smooth">
+            <h2 class="up col-fff barlow-cond-med fs-28">about</h2>
+            <hr>
+            <p class="montserrat-semi-bold fs-18 fw-100 col-fff">Company</p>
+            <p class="montserrat-semi-bold fs-18 fw-100 col-fff">Careers</p>
+            <p class="montserrat-semi-bold fs-18 fw-100 col-fff">Blog</p>
           </div>
-          <div class="city">
-            <h2>City Name</h2>
-            <div class="line1"></div>
-            <div class="addNum">
-              <p>
-                <img
-                  src="images/pinPoint-white.png"
-                  alt="location pointer logo"
-                />
-                123 Address St. <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City,
-                ST 12345
-              </p>
-              <br />
-              <p>
-                <img
-                  style="transform: scaleX(-1)"
-                  src="images/icons8-phone-white-21.png"
-                  alt="phone icon"
-                />&nbsp;(123) 456-7890
-              </p>
-            </div>
-            <div class="social flex row">
-              <i class="fa-brands fa-facebook fa-2x" style="color: #ffffff;"></i>
-              <i class="fa-brands fa-instagram fa-2x" style="color: #ffffff;"></i>
-              <i class="fa-brands fa-twitter fa-2x" style="color: #ffffff;"></i>              
-              <i class="fa-brands fa-linkedin-in fa-2x" style="color: #ffffff;"></i>
-            </div>
+          <div class="connect f-smooth">
+            <h2 class="col-fff barlow-cond-med fs-28 up">Connect</h2>
+            <hr>
+            <p class="contact montserrat-semi-bold fs-18 fw-100 col-fff">Contact Us</p>
+            <p class="montserrat-semi-bold fs-18 fw-100 col-fff">Subscribe</p>
           </div>
         </div>
-        <div class="copywrite flex between center">
-          <div class="mls">
-            <img
-              src="images/Equal Housing Opportunity.png"
-              alt="Equal Housing Opportunity Logo"
-            />
-            <img src="images/MLS.png" alt="MLS Logo" />
+        <div class="city f-smooth">
+          <h2 class="col-fff barlow-cond-med fs-28 up">City Name</h2>
+          <hr>
+          <div class="addNum">
+            <p class="montserrat-semi-bold fs-18 fw-100 col-fff" style="padding:0 5px;">
+              <i class="fa-solid fa-location-dot fa-lg" style="color: #ffffff; padding:0 5px"></i>
+              123 Address St. <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City,
+              ST 12345
+            </p>
+            <br />
+            <p class="montserrat-semi-bold fs-18 fw-100 col-fff">
+              <i
+              class="fa-solid fa-phone fa-lg"
+              style="color: #ffffff; transform: scaleX(-1); padding: 0 5px;"
+            ></i>(123) 456-7890
+            </p>
           </div>
-
-          <p>
-            &copy 2023 All Rights Reserved. <a href="#">Web.Cloud.Apps</a> by
-            Sharp Hue.
-          </p>
+          <div class="social flex row">
+            <i class="fa-brands fa-facebook fa-lg" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i>              
+            <i class="fa-brands fa-linkedin-in fa-lg" style="color: #ffffff;"></i>
+          </div>
         </div>
+      </div>
+      <div class="mls flex center">
+        <img
+          src="images/Equal Housing Opportunity.png"
+          alt="Equal Housing Opportunity Logo"
+        />
+        <img src="images/MLS.png" alt="MLS logo" />
+      </div>
+      <div class="copywrite flex center column col-ff f-smooth">
+        <p>&copy All Rights Reserved.</p>
+        <p><a href="#">Web.Cloud.Apps</a> by Sharp Hue.</p>
       </div>
     </footer>
   </body>
